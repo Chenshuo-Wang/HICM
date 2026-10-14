@@ -1,0 +1,14 @@
+# KiCad temporary, local preferences and backup files
+*.kicad_prl
+*.bak
+*-bak
+_autosave-*
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_restore_backup_*
+
+# Editor and Python cache
+.history/
+__pycache__/
+*.py[cod]
+.vscode/
