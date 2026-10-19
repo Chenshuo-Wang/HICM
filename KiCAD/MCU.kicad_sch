@@ -5,6 +5,129 @@
 	(uuid "8c54c458-12f7-468b-8302-e7f67216b599")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1683,16 +1806,12 @@
 		(uuid "07108e62-a3b7-4e0f-8a1b-13cf9c19abfb")
 	)
 	(no_connect
-		(at 154.94 96.52)
+		(at 154.94 91.44)
 		(uuid "09e53f87-71aa-4d6f-bb5d-b6ee8af385c9")
 	)
 	(no_connect
 		(at 154.94 114.3)
 		(uuid "21865055-e201-4103-a390-abe2d8387ec1")
-	)
-	(no_connect
-		(at 154.94 91.44)
-		(uuid "27649f28-daf4-42b9-8d92-9feaa1219395")
 	)
 	(no_connect
 		(at 154.94 104.14)
@@ -1701,10 +1820,6 @@
 	(no_connect
 		(at 154.94 101.6)
 		(uuid "3ecb281e-29fa-466f-8bf4-a794cd4d8371")
-	)
-	(no_connect
-		(at 154.94 93.98)
-		(uuid "43599865-e95b-411c-8d81-b7205a759eda")
 	)
 	(no_connect
 		(at 129.54 119.38)
@@ -1764,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 81.28) (xy 180.34 81.28)
+			(xy 154.94 81.28) (xy 180.34 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1824,16 +1939,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 81.28) (xy 165.1 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454514b6-9790-40da-95de-3233f488df35")
-	)
-	(wire
-		(pts
 			(xy 139.7 58.42) (xy 142.24 58.42)
 		)
 		(stroke
@@ -1854,16 +1959,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 180.34 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "553dede4-f8fc-4d27-a496-b900193bdfd6")
-	)
-	(wire
-		(pts
 			(xy 124.46 99.06) (xy 129.54 99.06)
 		)
 		(stroke
@@ -1874,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 157.48 76.2)
+			(xy 154.94 76.2) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2031,6 +2126,26 @@
 			(type default)
 		)
 		(uuid "b3ce6bdb-468c-4d3c-adc5-4004f0d9130a")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 160.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8f5bcc-d6f2-47f3-9317-270fb9006781")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 171.45 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8efefc-d307-46f3-a1da-12939c4121e2")
 	)
 	(wire
 		(pts
@@ -2262,6 +2377,85 @@
 		(uuid "b3ed7ad4-c73c-44f3-8e22-ed64880f1f24")
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06534abe-0669-4c7d-9721-08681c232d1f")
+		(property "Reference" "TP1"
+			(at 165.1 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 165.1 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 160.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91815ab8-f058-4cf3-953e-a608f01ce8e1")
+		)
+		(instances
+			(project "Microphone"
+				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 63.5 0)
 		(unit 1)
@@ -2272,7 +2466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dbc66f8-7c06-4355-ad8b-44181bdc37ca")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 157.48 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2527,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2350,7 +2544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4deb09ea-6e4e-4c01-9b96-24059ba3851f")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 132.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -2411,7 +2605,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "576d57ae-0fd8-4d3b-9349-0119fb8c6f8a")
-		(property "Reference" "C28"
+		(property "Reference" "C36"
 			(at 147.32 56.642 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2448,7 +2642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2490,7 +2684,86 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "C28")
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 171.45 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d12eac6-ee49-45e0-9bd1-7fc5a64cb8e6")
+		(property "Reference" "TP2"
+			(at 176.53 92.7099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 176.53 95.2499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 171.45 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 171.45 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e07f81b-9bd7-4e25-9e49-af0e23a9d52a")
+		)
+		(instances
+			(project "Microphone"
+				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2508,7 +2781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7257e874-a61e-4988-9a81-74ad3786da56")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 99.06 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2568,7 +2841,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2586,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "772163f0-57fd-47dc-8e60-61f149c56c6b")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 144.526 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2608,7 +2881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm_ThermalVias"
 			(at 132.08 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2744,86 +3017,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "809387b5-1b22-478c-aba0-de489d6f79c6")
-		(property "Reference" "R41"
-			(at 167.64 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 167.64 83.82 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 167.64 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "074c8bcd-5477-47e4-b05a-c7ff328bddba")
-		)
-		(pin "1"
-			(uuid "b7a055a6-1d80-4da3-9e9b-88233ff8e180")
-		)
-		(instances
-			(project "Microphone"
-				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "R41")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2840,7 +3034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86da3854-f355-4d7c-988f-52af083876ca")
-		(property "Reference" "C27"
+		(property "Reference" "C35"
 			(at 147.32 51.562 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2860,7 +3054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2902,86 +3096,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "895a735e-a9a7-49a6-bd58-3858e25fb172")
-		(property "Reference" "R40"
-			(at 160.02 73.66 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 160.02 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3467a11a-f066-4745-ac3c-70c7cee3f070")
-		)
-		(pin "1"
-			(uuid "0014e378-c0ac-4b9e-8b63-fc2b4f5ed7a2")
-		)
-		(instances
-			(project "Microphone"
-				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "R40")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2998,7 +3113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9598de49-c160-4de8-86f6-1ce5da99c452")
-		(property "Reference" "C29"
+		(property "Reference" "C37"
 			(at 147.32 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3018,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 149.86 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3175,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "C29")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3077,7 +3192,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2e3b7be-a0f0-4eeb-b358-3441a6813383")
-		(property "Reference" "R38"
+		(property "Reference" "R37"
 			(at 102.87 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3099,7 +3214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3141,7 +3256,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "R38")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -3181,7 +3296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 101.6 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3240,7 +3355,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4dc5160-c948-4cb7-b5cf-c5598035ea20")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 142.24 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3301,7 +3416,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94c17a3-70b2-48d3-a47b-b2476525c406")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 101.6 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3379,7 +3494,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3396,7 +3511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf26e7f7-adc5-4eff-b720-ed81cc8cb633")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 149.86 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3457,7 +3572,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3057f9f-9596-45cd-a872-d2d28d9a94a7")
-		(property "Reference" "C25"
+		(property "Reference" "C33"
 			(at 134.62 62.1404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3538,7 +3653,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "C25")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3555,7 +3670,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5bd5012-9c33-4554-852b-aee806fdeccc")
-		(property "Reference" "R37"
+		(property "Reference" "R36"
 			(at 100.33 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3577,7 +3692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3619,7 +3734,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "R37")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3637,7 +3752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e4b23e-22c2-4370-922e-acd99d4c348a")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 139.7 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3697,7 +3812,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3714,7 +3829,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebe701d6-5d9f-4cc9-b08b-62985c6cefe2")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 107.95 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +3851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 106.68 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3778,7 +3893,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6dfaa86-1967-4a43-b8f1-c1e02e637228")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 101.6 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3856,7 +3971,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3873,7 +3988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdf1627a-1ee7-498e-8a6e-9ae646eb65d4")
-		(property "Reference" "C26"
+		(property "Reference" "C34"
 			(at 142.24 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3893,7 +4008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 144.78 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3935,7 +4050,7 @@
 		(instances
 			(project "Microphone"
 				(path "/5b82f5e5-7a82-49ab-963f-208a7b2e304e/a273d3f8-780d-4315-94ac-2f59ce438b06"
-					(reference "C26")
+					(reference "C34")
 					(unit 1)
 				)
 			)

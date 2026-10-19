@@ -1,9 +1,9 @@
 (sym_lib_table
 	(version 7)
+	(lib (name "OPA140AIDR") (type "KiCad") (uri "${KIPRJMOD}/library/OPA140AIDR.kicad_sym") (options "") (descr ""))
 	(lib (name "AK5572EN") (type "KiCad") (uri "${KIPRJMOD}/library/AK5572EN.kicad_sym") (options "") (descr ""))
 	(lib (name "NZ2520SDA") (type "KiCad") (uri "${KIPRJMOD}/library/NZ2520SDA.kicad_sym") (options "") (descr ""))
 	(lib (name "TPS25200") (type "KiCad") (uri "${KIPRJMOD}/library/TPS25200.kicad_sym") (options "") (descr ""))
 	(lib (name "GM1200") (type "KiCad") (uri "${KIPRJMOD}/library/GM1200.kicad_sym") (options "") (descr ""))
 	(lib (name "ADP5070ACPZ") (type "KiCad") (uri "${KIPRJMOD}/library/ADP5070ACPZ.kicad_sym") (options "") (descr ""))
-	(lib (name "TPS61390RTER") (type "KiCad") (uri "${KIPRJMOD}/library/TPS61390RTER.kicad_sym") (options "") (descr ""))
 )

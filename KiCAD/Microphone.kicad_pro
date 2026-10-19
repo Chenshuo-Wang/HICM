@@ -598,14 +598,26 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "位号"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -656,7 +668,7 @@
         "uuid": "5b82f5e5-7a82-49ab-963f-208a7b2e304e"
       }
     ],
-    "used_designators": "MK1,IC1,R1-54,J1,C1-64,#PWR1-97,D1-9,U1-11,CE1-2,Y1,H1,JP1,L1-2",
+    "used_designators": "MK1,IC1,#FLG1-9,R1-56,J1,C1-74,#PWR1-106,D1-9,U1-14,CE1-2,Y1,H1,JP1,L1-2,U5A1,TP1-2",
     "variants": []
   },
   "sheets": [
